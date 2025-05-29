@@ -22,7 +22,7 @@ for item in data:
     print(item["url"], item.get("title"))
 ```
 
-You can add any parameters for aiohttp to perform the request like headers, proxy, and more.
+You can add any parameters for aiohttp to perform the request like headers, proxy, and more. Please check [aiohttp documentation](https://docs.aiohttp.org/en/stable/client_reference.html#clientrequest) for reference.
 
 Example:
 ```
