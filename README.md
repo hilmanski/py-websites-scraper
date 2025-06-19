@@ -10,7 +10,7 @@ Scrape main content on multiple websites using Python in parallel.
 
 ## How to use 
 ```
-pip install py-web-scraper
+pip install py-websites-scraper
 ```
 
 Quick usage:
