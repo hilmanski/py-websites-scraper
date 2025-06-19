@@ -21,11 +21,10 @@ from py_websites_scraper import scrape_urls
 urls = ["https://news.ycombinator.com", "https://example.com"]
 data = asyncio.run(scrape_urls(urls, max_concurrency=5))
 for item in data:
-    if item["status] is True:
+    if item["success"] is True:
         print(item["url"], item.get("title"), item.get("content"))
     else:
-        print("Failed fetching this URL: " + item["url])
-
+        print("Failed fetching this URL: " + item["url"])
 ```
 
 Available key on the response:
